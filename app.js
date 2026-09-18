@@ -100,35 +100,35 @@
       title: 'Lienzo de Disrupción Digital y Modelos de Ingresos',
       what: 'El punto de partida. Desarmamos el subsector de prensa en cinco bloques: cómo operaba y cobraba antes, qué tecnología lo rompió, cómo funciona hoy, de dónde salen los ingresos ahora y quién ganó y quién perdió en el cambio.',
       learn: 'Lo que más nos marcó: el papel no cayó por falta de lectores, cayó porque imprimir, distribuir y colocar en punto de venta dejó de tener sentido frente a un costo digital casi nulo.',
-      files: [{ f: 'archivos/01-lienzo-disrupcion-digital-prensa.xlsx', label: 'Lienzo completo', size: '10 KB' }]
+      files: [{ f: '01-lienzo-disrupcion-digital-prensa.xlsx', label: 'Lienzo completo', size: '10 KB' }]
     },
     {
       n: '02', type: 'PDF',
       title: 'Bases del proyecto y propuesta de modelo de negocio',
       what: 'La actividad donde pasamos del diagnóstico a la propuesta. Aquí se define qué es NETRO MX, cómo navega el usuario (México → Estado → Municipio → Servidor), el mapa de accidentes y reportes con GPS, la prensa local por municipio, los foros comunitarios y la regla “sin seguidores”.',
       learn: 'Definir el modelo obligó a decidir algo raro para una plataforma: renunciar a los seguidores. Sin ellos, la visibilidad tiene que calcularse por relevancia, utilidad y participación — no por popularidad comprada.',
-      files: [{ f: 'archivos/02-bases-y-modelo-de-negocio-netro-mx.pdf', label: 'Bases + modelo de negocio', size: '748 KB' }]
+      files: [{ f: '02-bases-y-modelo-de-negocio-netro-mx.pdf', label: 'Bases + modelo de negocio', size: '748 KB' }]
     },
     {
       n: '03', type: 'HTML',
       title: 'Informe de Tendencias de Marca (Google Trends)',
       what: 'Medición de la categoría en México a 12 meses: interés en el tiempo, posicionamiento geográfico por subregión y consultas y temas relacionados, comparando “acontecimientos locales” contra periódicos locales y X. Incluye ficha del proyecto, dashboard ejecutivo y diagnóstico de branding.',
       learn: 'Las consultas en auge —accidentes, eventos, lugares cercanos, reportes ciudadanos— apuntaban todas al mismo lado: la gente ya busca información local con intención de ubicación. Ahí confirmamos las tres zonas prioritarias.',
-      files: [{ f: 'archivos/03-informe-tendencias-de-marca.html', label: 'Informe interactivo', size: '63 KB' }]
+      files: [{ f: '03-informe-tendencias-de-marca.html', label: 'Informe interactivo', size: '63 KB' }]
     },
     {
       n: '04', type: 'DOCX',
       title: 'Cuadro de Resultados de la Investigación',
       what: 'La evaluación formal, tendencia por tendencia, de qué tan bien la cubren los competidores: tiempo real, mapa y ubicación, reportes ciudadanos, comunidad local, información geolocalizada y negocios cercanos. Cada fila con calificación y observaciones.',
       learn: 'El cuadro separó lo que hay que mantener de lo que hay que construir. La comunidad local ya está bien atendida por ambos; el mapa, la información geolocalizada y los negocios cercanos no los resuelve nadie de forma estructurada.',
-      files: [{ f: 'archivos/04-cuadro-de-resultados-investigacion.docx', label: 'Cuadro + conclusión', size: '16 KB' }]
+      files: [{ f: '04-cuadro-de-resultados-investigacion.docx', label: 'Cuadro + conclusión', size: '16 KB' }]
     },
     {
       n: '05', type: 'PDF',
       title: 'Informe de investigación: creación con perspectiva humanista',
       what: 'Investigación sobre responsabilidad social en plataformas cívicas y de información local. Revisa siete marcos activos entre 2025 y 2026 —periodismo constructivo, Civic Signals, gobernanza prosocial, tecnología humana, verificación comunitaria, alfabetización mediática de la UNESCO e infraestructura cívica digital— y los traduce en siete estrategias aplicadas a NETRO MX.',
       learn: 'Aquí nos tocó ser honestos con nuestro propio proyecto: preguntarnos si la plataforma ayudaría a la gente a entender su entorno o sólo la mantendría pegada a la pantalla. Varias de las siete estrategias salieron de admitir lo que aún nos faltaba.',
-      files: [{ f: 'archivos/05-informe-de-investigacion-humanista.pdf', label: 'Informe completo', size: '2.9 MB' }]
+      files: [{ f: '05-informe-de-investigacion-humanista.pdf', label: 'Informe completo', size: '2.9 MB' }]
     },
     {
       n: '06', type: 'HTML',
@@ -136,8 +136,8 @@
       what: 'La propuesta hecha producto: navegación por mapa, el feed de “lo que está pasando”, el flujo para levantar un reporte, el dashboard comunitario, la sección de negocios y la lógica de publicación sin seguidores. Es el prototipo navegable del modelo descrito en la actividad 02.',
       learn: 'Bajar la idea a pantallas reveló las decisiones que en papel se pueden esquivar: qué ve primero el usuario, cómo se confirma un reporte y cómo se muestra utilidad sin caer en métricas de vanidad.',
       files: [
-        { f: 'archivos/06-prototipo-netro-mx.html', label: 'Prototipo', size: '88 KB' },
-        { f: 'archivos/07-prototipo-netro-mx-version-bundle.html', label: 'Versión empaquetada', size: '670 KB' }
+        { f: '06-prototipo-netro-mx.html', label: 'Prototipo', size: '88 KB' },
+        { f: '07-prototipo-netro-mx-version-bundle.html', label: 'Versión empaquetada', size: '670 KB' }
       ]
     }
   ];
