@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NETRO MX — Portafolio del Parcial</title>
+<meta name="description" content="Equipo 8 · Prensa y Noticias. Todas las actividades del parcial de Negocios Digitales en la Industria del Entretenimiento, explicadas y descargables.">
+<meta name="theme-color" content="#050607">
+<meta property="og:title" content="NETRO MX — Portafolio del Parcial · Equipo 8">
+<meta property="og:description" content="Investigación, lienzo de disrupción, tendencias de marca y prototipo. Todo en un solo lugar.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%23ff7a33' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23ff7a33'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= FONDO ================= -->
+<div id="bg">
+  <canvas id="bg-canvas"></canvas>
+  <video id="bg-video" autoplay loop muted playsinline preload="auto"
+    src="https://jovxgdctpqexoiwfspue.supabase.co/storage/v1/object/sign/asset-media/2d253bdb-281c-4afb-9d7c-ba8cbdd85eb2/a0d12aee7e16-hf_20260315_073750_51473149-4350-4920-ae24-c8214286f323.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9iMjk0Y2Y1ZS01ODRhLTQ5ODItOGY3MS04NGQzZDAwMzJiNzgiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldC1tZWRpYS8yZDI1M2JkYi0yODFjLTRhZmItOWQ3Yy1iYThjYmRkODVlYjIvYTBkMTJhZWU3ZTE2LWhmXzIwMjYwMzE1XzA3Mzc1MF81MTQ3MzE0OS00MzUwLTQ5MjAtYWUyNC1jODIxNDI4NmYzMjMubXA0Iiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4NjAyNTc5OCwiZXhwIjoyMTAxMzg1Nzk4fQ.oiljPqGchVhwOkBt8vJzHF4VCEGx2Ix7BAWWDAK_kb4"></video>
+</div>
+<div id="grain"></div>
+
+<!-- logo reutilizable -->
+<svg style="display:none">
+  <symbol id="netro-logo" viewBox="0 0 48 48">
+    <circle class="ring" cx="24" cy="24" r="19" fill="none" stroke="#ff7a33" stroke-width="2.2" stroke-dasharray="86 34"/>
+    <circle cx="24" cy="24" r="7.5" fill="#ff7a33"/>
+  </symbol>
+</svg>
+
+<div class="shell">
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="inicio">
+  <div class="hero-left">
+    <div class="panel-glass glass-strong"></div>
+    <div class="hero-inner">
+
+      <nav class="nav">
+        <div class="brandmark">
+          <svg class="logo"><use href="#netro-logo"/></svg>
+          <span class="brandname">netro<b>mx</b></span>
+        </div>
+        <a href="#actividades" class="pill glass r-full hoverable">
+          <svg class="ico" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <span>Menú</span>
+        </a>
+      </nav>
+
+      <div class="hero-center">
+        <svg class="logo-xl"><use href="#netro-logo"/></svg>
+
+        <h1 class="hero-h1">Todo México<br><em>conectado.</em></h1>
+
+        <p class="hero-sub">El trabajo completo del parcial sobre el subsector de <strong style="color:#fff;font-weight:400">Prensa y Noticias</strong>: cómo se cayó un modelo de negocio de papel, qué lo reemplazó y qué plataforma propusimos nosotros.</p>
+
+        <div class="cta-row">
+          <a href="#actividades" class="cta glass-strong r-full hoverable">
+            Ver las actividades
+            <span class="circle"><svg class="ico" viewBox="0 0 24 24"><path d="M12 5v14M19 12l-7 7-7-7"/></svg></span>
+          </a>
+          <a href="netro-mx-parcial-equipo8-completo.zip" download class="cta glass r-full hoverable">
+            Descargar todo
+            <span class="circle"><svg class="ico" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg></span>
+          </a>
+        </div>
+
+        <div class="pills">
+          <span class="pill glass r-full">Prensa y Noticias</span>
+          <span class="pill glass r-full">Equipo 8</span>
+          <span class="pill glass r-full">6 actividades</span>
+        </div>
+      </div>
+
+      <div class="hero-quote">
+        <span class="label"><span class="dot"></span> Posicionamiento</span>
+        <p class="q">“Acontecimientos locales, <em class="serif">en tiempo real</em>, cerca de ti.”</p>
+        <div class="byline">
+          <span class="line"></span>
+          <span class="label">Negocios Digitales · Lic. Comercio Electrónico</span>
+          <span class="line"></span>
+        </div>
+      </div>
+
+    </div>
+    <div class="cue"><span class="bar"></span><span class="label">Scroll</span></div>
+  </div>
+
+  <!-- panel derecho (escritorio) -->
+  <aside class="hero-right">
+    <div class="rtop">
+      <div class="socials glass r-full">
+        <a href="#actividades" aria-label="Actividades"><svg class="ico" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg></a>
+        <span class="sep"></span>
+        <a href="#resultados" aria-label="Resultados"><svg class="ico" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg></a>
+        <span class="sep"></span>
+        <a href="#equipo" aria-label="Equipo"><svg class="ico" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg></a>
+        <span class="sep"></span>
+        <svg class="ico" style="opacity:.45" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </div>
+      <a href="#equipo" class="iconbtn glass r-full hoverable" aria-label="Integrantes">
+        <svg class="ico" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg>
+      </a>
+    </div>
+
+    <div class="rcard glass r-2xl">
+      <h4>Entra al ecosistema</h4>
+      <p>Mapa por estado, municipio y servidor. Prensa comunitaria, foros y reportes ciudadanos en una sola capa.</p>
+    </div>
+
+    <div class="rcard glass r-2xl" style="width:17rem;margin-left:auto">
+      <span class="label" style="display:block;margin-bottom:.6rem"><span class="dot"></span> Sin seguidores</span>
+      <p style="font-size:.78rem;line-height:1.6;color:rgba(255,255,255,.65)">Relevancia&nbsp;+ utilidad&nbsp;+ participación&nbsp;= visibilidad.<br><span style="color:rgba(255,255,255,.35)">No: seguidores + dinero = popularidad.</span></p>
+    </div>
+
+    <div class="rfeature glass r-huge">
+      <div class="rgrid">
+        <div class="rmini glass r-3xl">
+          <span class="icobox"><svg class="ico" viewBox="0 0 24 24"><path d="M15 4V2M15 16v-2M8 9h2M20 9h2M17.8 11.8L19 13M15 9h0M17.8 6.2L19 5M3 21l9-9M12.2 6.2L11 5"/></svg></span>
+          <span class="n">07</span>
+          <p>Estrategias de responsabilidad social propuestas para la plataforma.</p>
+        </div>
+        <div class="rmini glass r-3xl">
+          <span class="icobox"><svg class="ico" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+          <span class="n">12M</span>
+          <p>Meses analizados en Google Trends para medir el interés de la categoría.</p>
+        </div>
+      </div>
+      <div class="rwide glass r-3xl">
+        <div class="rthumb">
+          <svg viewBox="0 0 96 64" style="width:100%;height:100%">
+            <rect width="96" height="64" fill="#0a0d12"/>
+            <path d="M0 44 L18 34 L34 40 L52 24 L70 30 L96 14" fill="none" stroke="#ff7a33" stroke-width="1.6"/>
+            <circle cx="52" cy="24" r="3" fill="#ff7a33"/>
+            <circle cx="52" cy="24" r="8" fill="none" stroke="#ff7a33" stroke-width=".8" opacity=".45"/>
+          </svg>
+        </div>
+        <div>
+          <h5>Geolocalización como diferenciador</h5>
+          <p>La única tendencia que ni la prensa local ni X resuelven.</p>
+        </div>
+        <a href="#resultados" class="plusbtn glass r-full hoverable">+</a>
+      </div>
+    </div>
+  </aside>
+</header>
+
+<!-- ================= CONTEXTO ================= -->
+<section class="block wrap" id="contexto">
+  <div class="sechead reveal">
+    <span class="label"><span class="dot"></span> De qué va todo esto</span>
+    <h2>Nos tocó la industria <em>que más ha perdido</em> con lo digital.</h2>
+    <p>Prensa y Noticias. El subsector donde el producto se imprimía de madrugada, se repartía en camioneta y se vendía en un puesto de la esquina — y donde hoy nada de eso hace falta.</p>
+  </div>
+
+  <div class="ctx">
+    <div class="prose glass r-3xl reveal" style="padding:2rem">
+      <p>El parcial no era sólo describir esa caída. Era entender <strong>por qué pasó, quién se quedó con el dinero y qué se puede construir encima de lo que quedó</strong>. Así que lo trabajamos en capas.</p>
+      <p>Primero desarmamos el modelo tradicional en el <strong>Lienzo de Disrupción Digital</strong>: cómo cobraba la prensa antes, qué la frenaba y qué tecnología rompió esa barrera. Ahí quedó claro algo incómodo: el papel no murió por falta de lectores, murió porque el costo de llegar a ellos dejó de tener sentido.</p>
+      <p>Después vino la parte propositiva. Si el valor ya migró a quien controla directamente el contenido y la audiencia, ¿qué hueco queda sin ocupar? Ahí nació <strong>NETRO MX</strong>: una plataforma de acontecimientos locales organizada por mapa — México → Estado → Municipio → Servidor — con prensa comunitaria, foros por municipio, reportes ciudadanos con GPS y una regla que la separa de todo lo demás: <strong>sin seguidores</strong>. La visibilidad se gana por relevancia y utilidad, no por popularidad ni por pago.</p>
+      <p>Luego lo pusimos a prueba. Medimos la categoría en <strong>Google Trends</strong>, comparamos contra los dos competidores reales (los periódicos locales y X), y llenamos un <strong>cuadro de resultados</strong> tendencia por tendencia. El hallazgo fue limpio: la comunidad local ya está bien atendida por ambos, pero <strong>el mapa, la información geolocalizada y los negocios cercanos no los resuelve nadie</strong>. Ese es el terreno libre.</p>
+      <p>Y al final nos hicimos la pregunta que casi nadie se hace a tiempo: si esta plataforma llegara a funcionar, <strong>¿ayudaría a la gente a entender su entorno, o sólo la mantendría pegada a la pantalla?</strong> De ahí salió el informe de investigación con perspectiva humanista y las siete estrategias de responsabilidad social que cierran el trabajo.</p>
+    </div>
+
+    <div class="ctx-side">
+      <div class="fact glass r-2xl reveal"><span class="k">08</span><span class="v">Equipo de trabajo · subsector Prensa y Noticias, dentro de la industria del entretenimiento.</span></div>
+      <div class="fact glass r-2xl reveal"><span class="k">02</span><span class="v">Competidores analizados: periódicos locales (El Heraldo, El Sol del Centro, Hidrocálido) y X.</span></div>
+      <div class="fact glass r-2xl reveal"><span class="k">03</span><span class="v">Zonas prioritarias propuestas: Aguascalientes, Ciudad de México y Jalisco.</span></div>
+      <div class="fact glass r-2xl reveal"><span class="k">06<span>/06</span></span><span class="v">Actividades entregadas, todas descargables desde esta página.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ACTIVIDADES ================= -->
+<section class="block wrap" id="actividades">
+  <div class="sechead reveal">
+    <span class="label"><span class="dot"></span> Las entregas</span>
+    <h2>Seis actividades, <em>en el orden en que las pensamos.</em></h2>
+    <p>Cada tarjeta explica qué era la actividad, qué salió de ella y qué aprendimos. Todos los archivos se descargan en su formato original.</p>
+  </div>
+
+  <div class="acts" id="acts-grid"></div>
+
+  <div class="downloadall reveal">
+    <a href="netro-mx-parcial-equipo8-completo.zip" download class="cta glass-strong r-full hoverable">
+      Descargar el parcial completo (.zip · 3.5&nbsp;MB)
+      <span class="circle"><svg class="ico" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg></span>
+    </a>
+  </div>
+</section>
+
+<!-- ================= RESULTADOS ================= -->
+<section class="block wrap" id="resultados">
+  <div class="sechead reveal">
+    <span class="label"><span class="dot"></span> Lo que encontramos</span>
+    <h2>Dónde hay hueco <em>y dónde no.</em></h2>
+    <p>Comparamos siete tendencias contra los dos competidores. Las que ya cumplen bien hay que mantenerlas; las que nadie resuelve son el diferenciador.</p>
+  </div>
+
+  <div class="res">
+    <div class="tablecard glass r-3xl reveal">
+      <table>
+        <thead><tr><th>Tendencia</th><th style="text-align:center">Prensa local</th><th style="text-align:center">X</th><th style="text-align:center">NETRO MX</th></tr></thead>
+        <tbody>
+          <tr><td>Noticias</td><td align="center"><span class="mark m-yes">✓</span></td><td align="center"><span class="mark m-yes">✓</span></td><td align="center"><span class="mark m-net">✓</span></td></tr>
+          <tr><td>Tiempo real</td><td align="center"><span class="mark m-mid">△</span></td><td align="center"><span class="mark m-yes">✓</span></td><td align="center"><span class="mark m-net">✓</span></td></tr>
+          <tr><td>Mapa / ubicación</td><td align="center"><span class="mark m-mid">△</span></td><td align="center"><span class="mark m-mid">△</span></td><td align="center"><span class="mark m-net">✓</span></td></tr>
+          <tr><td>Reportes ciudadanos</td><td align="center"><span class="mark m-mid">△</span></td><td align="center"><span class="mark m-yes">✓</span></td><td align="center"><span class="mark m-net">✓</span></td></tr>
+          <tr><td>Comunidad local</td><td align="center"><span class="mark m-yes">✓</span></td><td align="center"><span class="mark m-yes">✓</span></td><td align="center"><span class="mark m-net">✓</span></td></tr>
+          <tr><td>Información geolocalizada</td><td align="center"><span class="mark m-mid">△</span></td><td align="center"><span class="mark m-mid">△</span></td><td align="center"><span class="mark m-net">✓</span></td></tr>
+          <tr><td>Negocios y lugares</td><td align="center"><span class="mark m-mid">△</span></td><td align="center"><span class="mark m-mid">△</span></td><td align="center"><span class="mark m-net">✓</span></td></tr>
+        </tbody>
+      </table>
+      <p class="label" style="margin-top:1.2rem;line-height:1.8">✓ cubierto · △ parcial o indirecto — fuente: cuadro de resultados de la investigación</p>
+    </div>
+
+    <div class="strats">
+      <div class="strat glass r-2xl reveal"><span class="i">01</span><div><h4>Doble verificación con salvaguarda humana</h4><p>Un reporte no sube de prioridad con una sola confirmación: se necesitan fuentes independientes, y siempre queda un canal para marcarlo como falso.</p></div></div>
+      <div class="strat glass r-2xl reveal"><span class="i">02</span><div><h4>Contexto además del hecho</h4><p>No basta con anunciar el problema. Si hay una calle cerrada, la tarjeta sugiere la vía alterna.</p></div></div>
+      <div class="strat glass r-2xl reveal"><span class="i">03</span><div><h4>Reputación por utilidad, no por alcance</h4><p>En vez de mostrar cuántos vieron una publicación, mostrar a cuántos les sirvió o la confirmaron.</p></div></div>
+      <div class="strat glass r-2xl reveal"><span class="i">04</span><div><h4>Señales cívicas en los foros</h4><p>Diseñar para pertenencia y comprensión mutua, no para maximizar el tiempo dentro de la app.</p></div></div>
+      <div class="strat glass r-2xl reveal"><span class="i">05</span><div><h4>Incentivos rediseñados</h4><p>Notificaciones y contadores pensados desde el bienestar generado, no desde el enganche.</p></div></div>
+      <div class="strat glass r-2xl reveal"><span class="i">06</span><div><h4>Alfabetización mediática</h4><p>Enseñar a la comunidad a leer, contrastar y compartir con responsabilidad lo que ve en un mapa o un foro.</p></div></div>
+      <div class="strat glass r-2xl reveal"><span class="i">07</span><div><h4>Infraestructura cívica en tres capas</h4><p>Conectar a las personas, ayudarlas a entender su entorno con datos abiertos y permitirles actuar sobre lo que observan.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INTEGRANTES ================= -->
+<section class="block wrap" id="equipo">
+  <div class="sechead reveal">
+    <span class="label"><span class="dot"></span> Equipo 8</span>
+    <h2>Quiénes lo <em>hicieron.</em></h2>
+    <p>Seis personas, un subsector y un parcial completo. Pasa el cursor sobre cada tarjeta.</p>
+  </div>
+  <div class="team" id="team-grid"></div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="wrap">
+  <div class="fbar glass r-3xl reveal">
+    <div class="brandmark">
+      <svg class="logo"><use href="#netro-logo"/></svg>
+      <div>
+        <div class="brandname" style="font-size:1.15rem">netro<b>mx</b></div>
+        <span class="label">Todo México conectado</span>
+      </div>
+    </div>
+    <div style="text-align:right">
+      <span class="label">Negocios Digitales en la Industria del Entretenimiento<br>Lic. Comercio Electrónico · Equipo 8 · Prensa y Noticias<br>Aguascalientes, México · 2026</span>
+    </div>
+  </div>
+</footer>
+
+</div><!-- /shell -->
+
+<script src="app.js"></script>
+</body>
+</html>
